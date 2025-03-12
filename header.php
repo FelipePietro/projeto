@@ -10,15 +10,12 @@
 
     <ul class="nav justify-content-center">
   <li class="nav-item">
-    <a class="nav-link active" aria-current="page" href="#">Active</a>
+    <a class="nav-link active" aria-current="page" href="?link=home">Visão Geral</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Menu 2</a>
+    <a class="nav-link" href="?link=add">Adicionar Estoque</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="#">Menu 3</a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+    <a class="nav-link" href="?link=remove">Remover Estoque</a>
   </li>
 </ul>

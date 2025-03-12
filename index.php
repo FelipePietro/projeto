@@ -4,7 +4,7 @@
 include 'header.php';
 
 // Verifica se o parâmetro 'link' está presente na URL
-$page = isset($_GET['link']) ? $_GET['link'] : 'home';  // 'home' como valor padrão
+$page = $_GET['link'];  // 'home' como valor padrão
 
 switch ($page) {
 
